@@ -2,11 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import FormDemo from './components/FormDemo.js';
+// import RegisterComponent from './components/yupvalidationdemo';
+//import RegisterComponent from './components/formvalidation';
+//import AppHome from './components/AppHome';
+import ProductDetailsComponent from './components/ProductDetailsComponent';
+import NasaMarsComponent from './components/NasaMarsComponent';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+     <NasaMarsComponent /> 
   </React.StrictMode>,
   document.getElementById('root')
 );
